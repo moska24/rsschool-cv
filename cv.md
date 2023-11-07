@@ -40,9 +40,11 @@ Petrozavodsk State University, specislist of mathematics, systems programmer.
 
 
 ## **Code example:**
-```const func = (num) => {  
+```
+const func = (num) => {  
   if (num > 0) {  
     return num - 1;  
   }
   return num + 1;  
-};```
+};
+```
