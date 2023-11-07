@@ -6,7 +6,7 @@
 
 **Phone:** +63 969 0860485  
 **E-mail:** lazorenko.natasha@yandex.ru  
-**Github:** moska24  
+**Github:**  [moska24](https://github.com/moska24/)
 
 ## **Objective:**
 
