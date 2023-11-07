@@ -1,14 +1,13 @@
 # **Lazorenko Natalia**
 ***
-
 ## **Junior Frontend Developer**
 ***
 
 ## **Contact information:**
 
-**Phone**: +63 969 0860485
-**E-mail**:lazorenko.natasha@yandex.ru
-**Github**: moska24
+**Phone:** +63 969 0860485  
+**E-mail:** lazorenko.natasha@yandex.ru  
+**Github:** moska24  
 ***
 
 ## **Objective:**
@@ -19,7 +18,7 @@ I am seeking an opportunity to use my skills and knowledge to contribute to the 
 
 ## **Education:**
 
-### **2009-2014**
+#### **2009-2014**
 Petrozavodsk State University, specislist of mathematics, systems programmer.
 ***
 
