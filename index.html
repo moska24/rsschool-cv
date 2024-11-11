@@ -1,1 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="item"><a class="link" href="#contacts">Contact information</a></li>
+                    <li class="item"><a class="link" href="#objective">Objective</a></li>
+                    <li class="item"><a class="link" href="#education">Education</a></li>
+                    <li class="item"><a class="link" href="#skills">Skills</a></li>
+                    <li class="item"><a class="link" href="#courses">Courses</a></li>
+                    <li class="item"><a class="link" href="#languages">Languages</a></li>
+                    <li class="item"><a class="link" href="#code">Code example</a></li>
+                </ul>
+            </nav>
+            <div class="burger">
+                <span></span>
+              </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section profile-section" id="profile">
+                <div class="profile-img">
+                    <img class="image" src="./assets/fox.png" alt="fox">
+                </div>
+                <div class="profile-content">
+                    <h1 class="profile-title">Lazorenko Natalia</h1>
+                    <h2 class="section-title">Junior Frontend Developer</h2>
+                </div>
+            </section>
+        </div>
+        <div class="container main-container info-container">
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contact information:</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        <span>Phone:</span>
+                        +63 969 0860485
+                    </li>
+                    <li class="section-item">
+                        <span>E-mail:</span>
+                        lazorenko.natasha@yandex.ru
+                    </li>
+                    <li class="section-item">
+                        <span>Github:</span>
+                        <a>moska24</a>
+                    </li>
+                </ul>
+            </section>
 
+            <section class="section" id="objective">
+                <h2 class="section-title">Objective:</h2>
+                <p>I am a begginer front-end developer with high responsibility.
+                    I am seeking an opportunity to use my skills and knowledge to 
+                    contribute to the success of a dynamic and innovative team.</p>
+            </section>
+
+            <section class="section" id="education">
+                <h2 class="section-title">Education:</h2>
+                <span>2009-2014</span>
+                <p>Petrozavodsk State University, specislist of mathematics, systems programmer.</p>
+            </section>
+
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills:</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        HTML5, CSS3
+                    </li>
+                    <li class="section-item">
+                        JavaScript
+                    </li>
+                    <li class="section-item">
+                        Git, GitHub
+                    </li>
+                    <li class="section-item">
+                        VS Code
+                    </li>
+                    <li class="section-item">
+                        Figma, Adobe Photoshop
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses:</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        RS Schools Course «JavaScript/Front-end. Stage 0»
+                    </li>
+                    <li class="section-item">
+                        Krona Studio Course «Web-designer»
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages:</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        Russian: Native
+                    </li>
+                    <li class="section-item">
+                        English: Pre-intermediate (A2)
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects:</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        <a class="section-link" href="https://moska24.github.io/GameJS/memory-game.html">Memory Game</a>
+                    </li>
+                    <li class="section-item">
+                        <a class="section-link" href="https://moska24.github.io/toxin/">Booking Servise TOXIN</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="code">
+                <h2 class="section-title">Code example:</h2>
+                <pre>
+                    <code class="code">
+const func = (num) => {  
+    if (num &gt; 0) {  
+        return num - 1;  
+    }
+    return num + 1;  
+}  
+                    </code>
+                </pre>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <p class="year">&copy; 2024</p>
+                <p class="owner"><a class="github-link" href="https://github.com/moska24/">moska24</a></p>
+            </div>
+            <div class="logo">
+                <a href="https://rs.school/courses/javascript-preschool-ru">
+                    <img src="assets/rss.svg" alt="RS" class="logo-img">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
